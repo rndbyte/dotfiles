@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# This file sets a universal environment for all sessions.
+# The xprofile files are natively sourced by the following display managers: GDM, LightDM, LXDM, SDDM.
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"

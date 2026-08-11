@@ -1,0 +1,46 @@
+XTerm*title: XTerm
+XTerm*geometry: 80x24
+
+XTerm*faceName: Hack Nerd Font Mono:style=Regular:antialias=true
+XTerm*faceSize: 14
+XTerm*boldMode: false
+
+XTerm*saveLines: 4096
+XTerm*scrollBar: false
+XTerm*scrollLines: 1
+
+XTerm.termName: xterm-256color
+
+! Make 'Alt' key behave as on other terminal emulators
+XTerm.vt100.metaSendsEscape: true
+
+! Copy/paste to clipboard
+XTerm.vt100.selectToClipboard: true
+
+! Copy/paste keys (such as gnome terminal)
+XTerm.vt100.translations: #override \n\
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
+    Ctrl <Key> minus: smaller-vt-font() \n\
+    Ctrl <Key> plus: larger-vt-font()
+
+! Tango theme with customized background and foreground colors
+XTerm*background: #3F3F3F
+XTerm*foreground: #FFFFFF
+
+XTerm*color0:  #2E3436
+XTerm*color1:  #CC0000
+XTerm*color2:  #4E9A06
+XTerm*color3:  #C4A000
+XTerm*color4:  #3465A4
+XTerm*color5:  #75507B
+XTerm*color6:  #06989A
+XTerm*color7:  #D3D7CF
+XTerm*color8:  #555753
+XTerm*color9:  #EF2929
+XTerm*color10: #8AE234
+XTerm*color11: #FCE94F
+XTerm*color12: #729FCF
+XTerm*color13: #AD7FA8
+XTerm*color14: #34E2E2
+XTerm*color15: #EEEEEC

@@ -1,0 +1,14 @@
+.idea
+.vscode
+
+.config/cmus/playlists/
+.config/cmus/*-history
+.config/cmus/autosave
+.config/cmus/cache
+.config/cmus/lib.pl
+.config/cmus/queue.pl
+.config/cmus/resume
+.config/git/*.config
+.config/mc/mcedit/
+
+TODO.md

@@ -1,0 +1,25 @@
+UXTerm*title: UXTerm
+UXTerm*geometry: 80x24
+
+UXTerm*faceName: JetBrainsMonoNL Nerd Font Mono:style=Regular:antialias=true
+UXTerm*faceSize: 14
+UXTerm*boldMode: false
+
+UXTerm*saveLines: 4096
+UXTerm*scrollBar: false
+UXTerm*scrollLines: 1
+
+UXTerm.termName: xterm-256color
+
+! Make 'Alt' key behave as on other terminal emulators
+UXTerm.vt100.metaSendsEscape: true
+
+! Copy/paste to clipboard
+UXTerm.vt100.selectToClipboard: true
+
+! Copy/paste keys (such as gnome terminal)
+UXTerm.vt100.translations: #override \n\
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
+    Ctrl <Key> minus: smaller-vt-font() \n\
+    Ctrl <Key> plus: larger-vt-font()

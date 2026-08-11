@@ -1,0 +1,19 @@
+# general
+
+set database "null"
+set dbus-service "false"
+set recolor "true"
+set recolor-keephue "true"
+set selection-clipboard "clipboard"
+set statusbar-home-tilde "true"
+set window-title-home-tilde "true"
+set font "monospace normal 16"
+set scroll-page-aware "true"
+set scroll-full-overlap "0.01"
+set scroll-step "50"
+
+# keybindings
+
+map [normal]        <C-r>   reload
+map [fullscreen]    <C-r>   reload
+map [presentation]  <C-r>   reload

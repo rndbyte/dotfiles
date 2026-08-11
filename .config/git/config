@@ -1,0 +1,26 @@
+[branch]
+    autoSetupMerge = always
+    sort = -committerdate
+
+[core]
+    autocrlf = input
+    bigFileThreshold = 100m
+    editor = vim
+    preloadIndex = true # Enabled by default, but explicit is fine
+    splitIndex = true # Reduces memory usage for large repos
+    sshCommand = ssh -o Compression=yes # Enable compression for ssh connections, efficient for text
+    untrackedCache = true
+
+[diff]
+    algorithm = histogram
+    renames = copies
+
+[merge]
+    conflictStyle = zdiff3
+    tool = vimdiff
+
+[pull]
+    rebase = true
+
+[include]
+    path = personal.config # config for private settings

@@ -1,0 +1,11 @@
+# Core options
+--verbose       # Show what's being done
+--target $HOME  # Explicitly set target directory
+
+# Ignore patterns (use Perl regex syntax)
+--ignore \.gitmodules$
+--ignore \.stowrc$
+--ignore \.gitignore$
+--ignore \.git$
+--ignore TODO\.md$
+--ignore README\.md$
