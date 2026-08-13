@@ -37,6 +37,7 @@ stow -D .
 | cmus              | music player                                         |
 | dunst             | notification daemon                                  |
 | fontconfig        | font configuration files                             |
+| gammastep         | Adjust display hue to outside lighting conditions    |
 | gdb               | interactive project debugger                         |
 | git               | distributed version control system                   |
 | i3                | tiling window manager                                |
