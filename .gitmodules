@@ -1,9 +1,10 @@
-[submodule "dot-config/nvim"]
+[submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/rndbyte/neovimrc.git
-[submodule "dot-config/tmux"]
+[submodule ".config/tmux"]
 	path = .config/tmux
 	url = https://github.com/rndbyte/tmuxrc.git
-[submodule "dot-local/share/fonts/nerd"]
+[submodule ".local/share/fonts/nerd"]
 	path = .local/share/fonts/nerd
-	url = https://github.com/ryanoasis/nerd-fonts.git
+    url = https://github.com/ryanoasis/nerd-fonts.git
+    shallow = true
